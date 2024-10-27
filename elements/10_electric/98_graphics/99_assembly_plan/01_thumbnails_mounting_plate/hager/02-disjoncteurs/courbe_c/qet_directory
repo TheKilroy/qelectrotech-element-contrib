@@ -1,6 +1,7 @@
 <qet-directory>
     <names>
-        <name lang="de">Characteristic C</name>
+        <name lang="de">Typ C</name>
         <name lang="fr">Courbe C</name>
+        <name lang="en">Type C</name>
     </names>
 </qet-directory>

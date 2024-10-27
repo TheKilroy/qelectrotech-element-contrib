@@ -1,47 +1,47 @@
-<definition link_type="slave" height="50" width="40" hotspot_x="27" version="0.90" type="element" hotspot_y="24">
-    <uuid uuid="{ff0c6fcf-d327-4486-9c91-9be163d8200b}"/>
+<definition width="50" hotspot_y="24" type="element" height="50" version="0.100.0" hotspot_x="30" link_type="slave">
+    <uuid uuid="{606963cb-8911-48f5-81b4-5da57e05c4ca}"/>
     <names>
         <name lang="de">Shelly 2.5 - Rolladen mode</name>
         <name lang="en">Shelly 2.5 - Roller Shutter</name>
     </names>
     <kindInformations>
         <kindInformation name="type">simple</kindInformation>
-        <kindInformation name="state">Other</kindInformation>
-        <kindInformation name="number">5</kindInformation>
+        <kindInformation name="state">SW</kindInformation>
+        <kindInformation name="number">3</kindInformation>
     </kindInformations>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license
 Author: TheKilroy</informations>
     <description>
-        <text color="#000000" x="-2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="s" rotation="0" y="5"/>
-        <line y2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="2" antialias="false" x2="8.5" x1="-8.5" end1="none" length2="1.5"/>
-        <circle x="-20" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2" antialias="true" y="-1"/>
-        <arc height="6" x="-22" start="45" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" angle="90" antialias="true" y="-3"/>
-        <line y2="-1" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" end2="none" y1="-1" antialias="false" x2="-18" x1="-0.00244" end1="none" length2="1.5"/>
-        <arc height="10" x="-24" start="45" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" angle="90" antialias="true" y="-5"/>
-        <circle x="7" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" antialias="false" y="-10"/>
-        <polygon y2="-17" style="line-style:normal;line-weight:thin;filling:black;color:black" x3="6" y1="-15" antialias="true" x2="4" y3="-17" x1="5"/>
-        <arc height="14" x="-26" start="45" style="line-style:normal;line-weight:normal;filling:none;color:black" width="14" angle="90" antialias="true" y="-7"/>
-        <line y2="-17" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-19" antialias="false" x2="5" x1="5" end1="none" length2="1.5"/>
-        <line y2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="10" antialias="false" x2="0" x1="0" end1="none" length2="1.5"/>
-        <line y2="0" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" end2="none" y1="0" antialias="false" x2="-18" x1="2" end1="none" length2="1.5"/>
-        <line y2="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" antialias="false" x2="8" x1="8" end1="none" length2="1.5"/>
-        <line y2="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" antialias="false" x2="-8" x1="-8" end1="none" length2="1.5"/>
-        <polygon y2="-18" style="line-style:normal;line-weight:thin;filling:black;color:black" x3="-10" y1="-20" antialias="true" x2="-12" y3="-18" x1="-11"/>
-        <line y2="-16" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-18" antialias="false" x2="-11" x1="-11" end1="none" length2="1.5"/>
-        <circle x="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" antialias="false" y="-10"/>
-        <polygon y6="-8" x7="4" y4="10" y2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="10" closed="false" x3="-10" y1="-8" antialias="false" y5="4" x6="4" y7="-8" x2="-10" y3="10" x5="10" x1="-4"/>
-        <dynamic_text Valignment="AlignTop" frame="false" x="-10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" rotation="0" Halignment="AlignLeft" text_width="-1" z="18" keep_visual_rotation="true" y="10">
+        <text rotation="0" text="s" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="1" x="-2" color="#000000"/>
+        <line end1="none" x2="8.5" x1="-8.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="2" antialias="false" length1="1.5" y2="2" end2="none" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2" y="-1" antialias="true" x="-20"/>
+        <arc width="6" height="6" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-3" start="45" antialias="true" x="-22"/>
+        <line end1="none" x2="-18" x1="-0.00244" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-1" antialias="false" length1="1.5" y2="-1" end2="none" length2="1.5"/>
+        <arc width="10" height="10" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" start="45" antialias="true" x="-24"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" y="-10" antialias="false" x="9"/>
+        <polygon x2="11" x1="12" x3="13" y3="-17" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-15" antialias="true" y2="-17"/>
+        <arc width="14" height="14" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-7" start="45" antialias="true" x="-26"/>
+        <line end1="none" x2="12" x1="12" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-19" antialias="false" length1="1.5" y2="-17" end2="none" length2="1.5"/>
+        <line end1="none" x2="0" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" antialias="false" length1="1.5" y2="20" end2="none" length2="1.5"/>
+        <line end1="none" x2="-18" x1="2" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" antialias="false" length1="1.5" y2="0" end2="none" length2="1.5"/>
+        <line end1="none" x2="10" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" antialias="false" length1="1.5" y2="-10" end2="none" length2="1.5"/>
+        <line end1="none" x2="-10" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" antialias="false" length1="1.5" y2="-10" end2="none" length2="1.5"/>
+        <polygon x2="-13" x1="-12" x3="-11" y3="-18" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-20" antialias="true" y2="-18"/>
+        <line end1="none" x2="-12" x1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-18" antialias="false" length1="1.5" y2="-16" end2="none" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" y="-10" antialias="false" x="-11"/>
+        <polygon x2="-10" x5="10" x1="-4" x6="4" closed="false" x3="-10" y3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y6="-8" y1="-8" antialias="false" y4="10" y2="4" x7="4" y7="-8" y5="4" x4="10"/>
+        <dynamic_text z="18" rotation="0" text_width="-1" text_from="UserText" font="Sans Serif,3,-1,5,25,0,0,0,0,0" frame="false" Valignment="AlignTop" y="10" keep_visual_rotation="true" x="-9" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" Halignment="AlignLeft">
             <text>L</text>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" frame="false" x="5" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" rotation="0" Halignment="AlignLeft" text_width="-1" z="21" keep_visual_rotation="true" y="-25">
+        <dynamic_text z="21" rotation="0" text_width="-1" text_from="UserText" font="Sans Serif,3,-1,5,25,0,0,0,0,0" frame="false" Valignment="AlignTop" y="-24" keep_visual_rotation="true" x="-1" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" Halignment="AlignLeft">
             <text>O2</text>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" frame="false" x="-10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" rotation="0" Halignment="AlignLeft" text_width="-1" z="24" keep_visual_rotation="true" y="-25">
+        <line end1="none" x2="5.5" x1="-5.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4" antialias="false" length1="1.5" y2="-4" end2="none" length2="1.5"/>
+        <dynamic_text z="24" rotation="0" text_width="-1" text_from="UserText" font="Sans Serif,3,-1,5,25,0,0,0,0,0" frame="false" Valignment="AlignTop" y="-24" keep_visual_rotation="true" x="-13" uuid="{ab238038-7bfe-43e1-8991-4ad9fe1b967b}" Halignment="AlignLeft">
             <text>O1</text>
         </dynamic_text>
-        <line y2="-4" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-4" antialias="false" x2="5.5" x1="-5.5" end1="none" length2="1.5"/>
-        <terminal orientation="n" x="8" uuid="{40f72b9c-690a-486d-9cd3-562c9b112fc2}" name="" type="Generic" y="-20"/>
-        <terminal orientation="s" x="0" uuid="{99e01aa1-275c-4191-b3f0-71e58022dafd}" name="" type="Generic" y="20"/>
-        <terminal orientation="n" x="-8" uuid="{cc0a4739-febd-4db5-be17-c31dad8dc928}" name="" type="Generic" y="-20"/>
+        <terminal type="Generic" orientation="n" y="-20" x="-10" uuid="{cc0a4739-febd-4db5-be17-c31dad8dc928}" name=""/>
+        <terminal type="Generic" orientation="n" y="-20" x="10" uuid="{40f72b9c-690a-486d-9cd3-562c9b112fc2}" name=""/>
+        <terminal type="Generic" orientation="s" y="20" x="0" uuid="{99e01aa1-275c-4191-b3f0-71e58022dafd}" name=""/>
     </description>
 </definition>

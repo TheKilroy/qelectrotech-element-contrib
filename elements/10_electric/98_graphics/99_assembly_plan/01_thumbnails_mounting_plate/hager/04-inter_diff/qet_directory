@@ -1,5 +1,7 @@
 <qet-directory>
     <names>
         <name lang="fr">Interrupteur différentiel</name>
+        <name lang="de">FI/LS - Kombielement</name>
+        <name lang="en">RCBO - RCD/CB combination</name>
     </names>
 </qet-directory>

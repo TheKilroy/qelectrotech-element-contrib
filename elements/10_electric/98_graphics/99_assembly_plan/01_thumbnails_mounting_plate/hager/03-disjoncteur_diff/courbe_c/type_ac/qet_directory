@@ -1,5 +1,7 @@
 <qet-directory>
     <names>
         <name lang="fr">Type AC</name>
+        <name lang="de">Typ AC</name>
+        <name lang="en">Type AC</name>
     </names>
 </qet-directory>

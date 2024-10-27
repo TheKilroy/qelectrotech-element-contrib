@@ -1,5 +1,5 @@
-<definition height="10" width="30" hotspot_y="5" type="element" link_type="simple" hotspot_x="6" version="0.90">
-    <uuid uuid="{1d16e8ac-fcfb-9eff-74fc-b67fa6c4bbed}" />
+<definition hotspot_x="6" link_type="simple" height="20" type="element" hotspot_y="9" width="30" version="0.100.0">
+    <uuid uuid="{3e35e28b-3922-40f0-810c-8369171368f5}"/>
     <names>
         <name lang="cs">2004-499</name>
         <name lang="de">2004-499</name>
@@ -7,24 +7,24 @@
         <name lang="en">2004-499</name>
     </names>
     <elementInformations>
-        <elementInformation name="plant" show="1" />
-        <elementInformation name="comment" show="1" />
-        <elementInformation name="description" show="1" />
-        <elementInformation name="quantity" show="1" />
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
         <elementInformation name="manufacturer" show="1">WAGO</elementInformation>
-        <elementInformation name="unity" show="1" />
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
         <elementInformation name="designation" show="1">2004-499</elementInformation>
-        <elementInformation name="label" show="1" />
-        <elementInformation name="manufacturer_reference" show="1" />
-        <elementInformation name="machine_manufacturer_reference" show="1" />
-        <elementInformation name="supplier" show="1" />
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
     </elementInformations>
     <informations>Author: plc-user for QElectroTech
         License:see https://qelectrotech.org/wiki_new/doc/elements_license
     </informations>
     <description>
-        <rect height="5.69" style="line-style:normal;line-weight:thin;filling:white;color:black" width="21.61" rx="0" y="-2.85" x="-2" antialias="false" ry="0" />
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-1.42" y1="1.42" x3="18" y4="1.42" x1="0.26" antialias="false" y2="-1.42" x4="18" x2="0.26" />
-        <text font="Sans Serif,2,-1,5,50,0,0,0,0,0" color="#000000" y="1.19" rotation="0" x="2.7" text="2004-499" />
+        <rect ry="0" height="5.69" antialias="false" x="-2" y="-2.85" style="line-style:normal;line-weight:thin;filling:white;color:black" width="21.61" rx="0"/>
+        <polygon x4="18" y1="1.42" closed="false" y2="-1.42" y4="1.42" x1="0.26" antialias="false" x2="0.26" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-1.42" x3="18"/>
+        <text font="Sans Serif,2,-1,5,50,0,0,0,0,0" color="#000000" text="2004-499" x="2" y="1.6" rotation="0"/>
     </description>
 </definition>
