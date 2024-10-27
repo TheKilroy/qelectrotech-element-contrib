@@ -10,6 +10,12 @@ __NOTE: due to the scale change and the exact units in all cabinet graphics I wo
 
 ## Changes
 
+### 2024-1027
+As a workaround for the problem to define terminal blocks that holds wires with different properties i.e. the Hager QuickConnect terminal blocks I have defined a set of terminal connectors as a master/slave device.
+So it is possible now to connect a 10 mm² wire to the master terminal and some 1,5 mm² or 2,5 mm² to the slave terminals. Simple connect the slave terminals to the master terminals and you get the correct reference.
+
+Changed the connection terminals for the shelly switches and placed them correctly on the grid.
+
 ### 2024-01-22
 * reflect scale changes to Hager quick connect terminals
 * added missing Hager quick connect terminals
